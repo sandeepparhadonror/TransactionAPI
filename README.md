@@ -1,21 +1,20 @@
 ## Store
 
 
-
 Genrate the Sinatra API app to Transaction
 
-* **Consumers** 
+*  **Consumers.** 
 
-* curl http://transactiondetailsapi.herokuapp.com/consumers
+ `curl http://transactiondetailsapi.herokuapp.com/consumers`
 
-* curl http://transactiondetailsapi.herokuapp.com/consumers/show/5
+ `curl http://transactiondetailsapi.herokuapp.com/consumers/show/5`
 
-* curl -i -X POST -H "Content-Type: application/json" -d '{"first_name":"Jack", "last_name":"Parow"}' http://transactiondetailsapi.herokuapp.com/consumers/create 
+ `curl -i -X POST -H "Content-Type: application/json" -d '{"first_name":"Jack", "last_name":"Parow"}' http://transactiondetailsapi.herokuapp.com/consumers/create`
 
-*curl -i -X PUT -H "Content-Type: application/json" -d '{"first_name":"Jack", "last_name":"saasa"}' http://transactiondetailsapi.herokuapp.com/consumers/update/4
+ `curl -i -X PUT -H "Content-Type: application/json" -d '{"first_name":"Jack", "last_name":"saasa"}' http://transactiondetailsapi.herokuapp.com/consumers/update/4`
 
 
-* **Merchants**
+*  **Merchants.**
 
 * curl http://transactiondetailsapi.herokuapp.com/merchants
 
@@ -26,7 +25,7 @@ Genrate the Sinatra API app to Transaction
 * curl -i -X PUT -H "Content-Type: application/json" -d '{"merchant_name":"Sandeep", "domain":"Flower and Decoretor"}' http://transactiondetailsapi.herokuapp.com/merchants/update/2
 
 
-* **Transactiondetails**
+* **Transactiondetails.**
 
 * curl http://transactiondetailsapi.herokuapp.com/transactiondetails
 
