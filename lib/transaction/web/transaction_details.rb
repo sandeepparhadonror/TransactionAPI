@@ -43,7 +43,7 @@ module Transaction
 end
 
 
-#curl http://localhost:9292/transactiondetails
-#curl http://localhost:9292/transactiondetails/show/1
-#curl -i -X POST -H "Content-Type: application/json" -d '{"sale_amount":"100", "consumer_id":"1", "merchant_id":"2"}' http://localhost:9292/transactiondetails/create  
-#curl -i -X PUT -H "Content-Type: application/json" -d '{"sale_amount":"500", "consumer_id":"2", "merchant_id":"2"}' http://localhost:9292/transactiondetails/update/4
+#curl http://transactiondetailsapi.herokuapp.com/transactiondetails
+#curl http://transactiondetailsapi.herokuapp.com/transactiondetails/show/1
+#curl -i -X POST -H "Content-Type: application/json" -d '{"sale_amount":"100", "consumer_id":"1", "merchant_id":"2"}' http://transactiondetailsapi.herokuapp.com/transactiondetails/create  
+#curl -i -X PUT -H "Content-Type: application/json" -d '{"sale_amount":"500", "consumer_id":"2", "merchant_id":"2"}' http://transactiondetailsapi.herokuapp.com/transactiondetails/update/4

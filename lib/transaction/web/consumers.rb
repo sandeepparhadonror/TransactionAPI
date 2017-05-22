@@ -41,11 +41,10 @@ module Transaction
 end
 
 
-#curl http://localhost:9292/consumers
-#curl http://localhost:9292/consumers/show/5
-#curl -i -d 'first_name=jack&last_name=parow' http://localhost:9292/consumers/create
-#curl -i -X POST -H "Content-Type: application/json" -d '{"first_name":"Jack", "last_name":"Parow"}' http://warm-dusk-59628.herokuapp.com/consumers/create  
-#curl -i -X PUT -H "Content-Type: application/json" -d '{"first_name":"Jack", "last_name":"saasa"}' http://localhost:9292/consumers/update/4
+#curl http://transactiondetailsapi.herokuapp.com/consumers
+#curl http://transactiondetailsapi.herokuapp.com/consumers/show/5
+#curl -i -X POST -H "Content-Type: application/json" -d '{"first_name":"Jack", "last_name":"Parow"}' http://transactiondetailsapi.herokuapp.com/consumers/create  
+#curl -i -X PUT -H "Content-Type: application/json" -d '{"first_name":"Jack", "last_name":"saasa"}' http://transactiondetailsapi.herokuapp.com/consumers/update/4
 
 
 

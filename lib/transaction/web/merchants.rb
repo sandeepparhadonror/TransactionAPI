@@ -42,8 +42,8 @@ end
 
 
 
-#curl http://localhost:9292/merchants
-#curl http://localhost:9292/merchants/show/5
-#curl -i -X POST -H "Content-Type: application/json" -d '{"merchant_name":"Sandeep Flower", "domain":"flower"}' http://localhost:9292/merchants/create  
-#curl -i -X PUT -H "Content-Type: application/json" -d '{"merchant_name":"Sandeep", "domain":"Flower and Decoretor"}' http://localhost:9292/merchants/update/2
+#curl http://transactiondetailsapi.herokuapp.com/merchants
+#curl http://transactiondetailsapi.herokuapp.com/merchants/show/5
+#curl -i -X POST -H "Content-Type: application/json" -d '{"merchant_name":"Sandeep Flower", "domain":"flower"}' http://transactiondetailsapi.herokuapp.com/merchants/create  
+#curl -i -X PUT -H "Content-Type: application/json" -d '{"merchant_name":"Sandeep", "domain":"Flower and Decoretor"}' http://transactiondetailsapi.herokuapp.com/merchants/update/2
 
