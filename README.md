@@ -35,4 +35,15 @@ Calling the API
  	`curl -i -X PUT -H "Content-Type: application/json" -d '{"sale_amount":"500", "consumer_id":"2", "merchant_id":"2"}' http://transactiondetailsapi.herokuapp.com/transactiondetails/update/4`
 
 
+# Docker 
+
+* **Creating the docker Image**
+	
+	`docker build --rm -t transaction_api .`
+
+* **Running the  docker image**
+
+	`docker run --rm -p 5000:5000 transaction_api`	 	
+
+
 
