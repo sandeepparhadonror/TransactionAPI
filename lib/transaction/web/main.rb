@@ -2,6 +2,7 @@ module Transaction
   module Web
     class Main < Sinatra::Base
 
+
       configure do
         configure :development do
           set :database, 'sqlite3:db/db/development.sqlite3'
@@ -21,6 +22,9 @@ module Transaction
         end
 
       end
+
+      set :bind, '0.0.0.0'
+      
 
       before do
         content_type 'application/json'

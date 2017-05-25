@@ -7,6 +7,7 @@ gem "activerecord" , require: "active_record"
 gem "sinatra-activerecord"
 gem "rake"
 gem "rack"
+gem "rack-test"
 gem "shotgun"
 
 group :production do
