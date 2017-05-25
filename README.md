@@ -1,4 +1,4 @@
-### TransactionDetail with Consumer and Merchants
+# TransactionDetail with Consumer and Merchants
 
 Calling the API 
 
